@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <>
-            <footer class="footer mt-auto py-3 bg-light">
+            <footer class="footer mt-auto py-3 bg-light sticky-bottom">
                 <div className="d-flex justify-content-center">
                     <ul className="list-group list-group-horizontal">
                         <li className="list-group-item"><a href="https://www.github.com/josh-hensley"><i class="bi bi-github"></i></a></li>
