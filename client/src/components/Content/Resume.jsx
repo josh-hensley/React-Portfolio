@@ -1,7 +1,7 @@
 function Resume() {
     return (
         <>
-            <div className="row">
+            <div className="row" style={{height:'80vh'}}>
                 <div className="col"></div>
                 <div className="col">
                     <div className="container">
