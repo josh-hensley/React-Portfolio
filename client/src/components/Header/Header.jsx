@@ -1,4 +1,8 @@
+import { Link, useLocation } from 'react-router-dom';
+
 function Header() {
+    const currentPage = useLocation().pathname;
+
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -10,23 +14,38 @@ function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Me</a>
+                                <Link
+                                    to="/"
+                                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                                >
+                                    About Me
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
+                                <Link
+                                    to="/resume"
+                                    className={currentPage === '/resume' ? 'nav-link active' : 'nav-link'}
+                                >
+                                    Resume
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Resume</a>
+                                <Link
+                                    to="/contact"
+                                    className={currentPage === '/contact' ? 'nav-link active' : 'nav-link'}
+                                >
+                                    Contact
+                                </Link>
                             </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li className="nav-item">
+                                <Link
+                                    to="/Portfolio"
+                                    className={currentPage === '/portfolio' ? 'nav-link active' : 'nav-link'}
+                                >
                                     Portfolio
-                                </a>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Project 1</a></li>
-                                    <li><a className="dropdown-item" href="#">Project 2</a></li>
-                                </ul>
+                                </Link>
                             </li>
+                            
                         </ul>
                     </div>
                 </div>

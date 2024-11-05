@@ -1,11 +1,11 @@
-function Resume(){
+function Contact(){
     return (
         <>
             <div>
-                <p>Resume Goes Here.</p>
+                <p>Contact Goes Here.</p>
             </div>
         </>
     )
 }
 
-export default Resume
+export default Contact

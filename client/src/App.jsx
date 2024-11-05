@@ -1,12 +1,14 @@
 import Header from './components/Header/Header';
-import AboutMe from './components/Content/AboutMe';
+import { Outlet } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <>
       <Header />
-      <AboutMe />
+      <main className="mx-3">
+        <Outlet />
+      </main>
       <Footer />
     </>
   )
