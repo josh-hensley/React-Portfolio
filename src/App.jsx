@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="mx-3">
+      <main className="mx-3 bg-gradient body-bg">
         <Outlet />
       </main>
       <Footer />

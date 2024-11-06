@@ -3,7 +3,7 @@ function Portfolio() {
         <>
             <div className="container my-5">
                 <div className="row">
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-4 my-2">
                         <div className="card">
                             <img src="/vite.svg" alt="" className="card-img-top align-self-center" style={{ width: '200px' }} />
                             <div className="card-body">
@@ -17,7 +17,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-4 my-2">
                         <div className="card">
                             <img src="/vite.svg" alt="" className="card-img-top align-self-center" style={{ width: '200px' }} />
                             <div className="card-body">
@@ -31,7 +31,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-4 my-2">
                         <div className="card">
                             <img src="/vite.svg" alt="" className="card-img-top align-self-center" style={{ width: '200px' }} />
                             <div className="card-body">
@@ -45,7 +45,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-4 my-2">
                         <div className="card">
                             <img src="/vite.svg" alt="" className="card-img-top align-self-center" style={{ width: '200px' }} />
                             <div className="card-body">
@@ -59,7 +59,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-4 my-2">
                         <div className="card">
                             <img src="/vite.svg" alt="" className="card-img-top align-self-center" style={{ width: '200px' }} />
                             <div className="card-body">
@@ -73,7 +73,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-4 my-2">
                         <div className="card">
                             <img src="/vite.svg" alt="" className="card-img-top align-self-center" style={{ width: '200px' }} />
                             <div className="card-body">

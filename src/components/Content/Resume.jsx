@@ -5,7 +5,7 @@ function Resume() {
                 <div className="col"></div>
                 <div className="col">
                     <div className="container">
-                        <h1 className="text-center">Josh Hensley&apos;s Resumé</h1>
+                        <h1 className="text-center text-light">Josh Hensley&apos;s Resumé</h1>
                         <div className="card m-5 text-center">
                             <h5 className="card-title my-1 text-center">Education</h5>
                             <hr />
