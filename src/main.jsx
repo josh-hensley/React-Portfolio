@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'bootstrap/dist/js/bootstrap.js';
+import './App.css'
 
 import App from './App.jsx'
 import AboutMe from './components/Content/AboutMe.jsx';
@@ -20,15 +21,15 @@ const router = createBrowserRouter([
                 element: <AboutMe />
             },
             {
-                path: "/resume",
+                path: "/Resume",
                 element: <Resume />
             },
             {
-                path: "/portfolio",
+                path: "/Portfolio",
                 element: <Portfolio />
             },
             {
-                path:"/contact",
+                path:"/Contact",
                 element: <Contact />
             }
         ]

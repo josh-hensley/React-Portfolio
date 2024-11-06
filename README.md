@@ -23,7 +23,7 @@ No installation required.
 
 ## <a name="Usage"></a>Usage
 
-Just visit this site. Point and click.
+Just visit [this site](https://extraordinary-cannoli-5e7d97.netlify.app/). Point and click.
 
 ## <a name="license"></a>License
 

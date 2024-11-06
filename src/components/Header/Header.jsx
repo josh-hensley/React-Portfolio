@@ -5,9 +5,9 @@ function Header() {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <nav className="navbar navbar-expand-lg navbar-light bg-primary bg-gradient sticky-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href='/'>Josh Hensley</a>
+                    <a className="navbar-brand text-light" href='/'>Josh Hensley</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -16,23 +16,23 @@ function Header() {
                             <li className="nav-item">
                                 <Link
                                     to="/"
-                                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                                    className={currentPage === '/' ? 'nav-link active' : 'nav-link text-light'}
                                 >
                                     About Me
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link
-                                    to="/resume"
-                                    className={currentPage === '/resume' ? 'nav-link active' : 'nav-link'}
+                                    to="/Resume"
+                                    className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link text-light'}
                                 >
                                     Resume
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link
-                                    to="/contact"
-                                    className={currentPage === '/contact' ? 'nav-link active' : 'nav-link'}
+                                    to="/Contact"
+                                    className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link text-light'}
                                 >
                                     Contact
                                 </Link>
@@ -40,7 +40,7 @@ function Header() {
                             <li className="nav-item">
                                 <Link
                                     to="/Portfolio"
-                                    className={currentPage === '/portfolio' ? 'nav-link active' : 'nav-link'}
+                                    className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link text-light'}
                                 >
                                     Portfolio
                                 </Link>
