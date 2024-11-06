@@ -2,10 +2,11 @@ function AboutMe() {
 
     return (
         <>
-            <div className='container text-center my-5'>
+            <div className='container text-center'>
                 <div className="row">
                     <div className="col-md-2 col-lg "></div>
                     <div className="col">
+                        <h2 className="my-3">About Me</h2>
                         <img src='/headshot_smaller.png' alt="Josh Hensley's headshot" className="img-fluid rounded" />
                         <p className='card-text my-5'>
                             Josh began his professional career in theatre at Garland Summer Musicals. The Granville Arts
